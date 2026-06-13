@@ -2051,8 +2051,10 @@ pre {
 }
 
 .offline-video-card video {
+  width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
+  background: #050504;
   border-radius: 7px;
 }
 

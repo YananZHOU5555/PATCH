@@ -20,6 +20,9 @@ import {
   Waypoints,
 } from '@lucide/vue';
 
+const withBase = (path) => `${import.meta.env.BASE_URL}${path.replace(/^\/+/, '')}`;
+const withAssetVersion = (path) => `${withBase(path)}?v=offline-crop-2048-20260613b`;
+
 const GithubMark = (props) =>
   h(
     'svg',
@@ -68,27 +71,27 @@ const resourceButtons = [
 
 const officialVideos = {
   towel: {
-    eyebrow: 'YouTube 4K60 demo',
+    eyebrow: 'Official demo',
     title: 'Multi-intervention towel rollout',
-    meta: 'official 4K60 upload',
+    meta: 'towel rollout',
     src: 'https://www.youtube-nocookie.com/embed/-JQy57wfU74?rel=0&modestbranding=1&playsinline=1',
   },
   full: {
-    eyebrow: 'YouTube 4K60 video',
+    eyebrow: 'Official video',
     title: 'PATCH — Full Video',
     meta: 'official narrated overview',
     src: 'https://www.youtube-nocookie.com/embed/54r9ASDzCqI?rel=0&modestbranding=1&playsinline=1',
   },
   cupRack: {
-    eyebrow: 'YouTube 4K60 demo',
+    eyebrow: 'Official demo',
     title: 'Cup-rack peer intervention',
-    meta: 'official 4K60 upload',
+    meta: 'cup-rack intervention',
     src: 'https://www.youtube-nocookie.com/embed/n4E4J0464M0?rel=0&modestbranding=1&playsinline=1',
   },
   ood: {
-    eyebrow: 'YouTube 4K60 demo',
+    eyebrow: 'Official demo',
     title: 'OOD execution stress',
-    meta: 'official 4K60 upload',
+    meta: 'ood execution stress',
     src: 'https://www.youtube-nocookie.com/embed/cS9K_Xb_rAg?rel=0&modestbranding=1&playsinline=1',
   },
 };
@@ -197,64 +200,64 @@ const offlineCaseVideos = [
     code: 'C1',
     title: 'Clean rollout',
     label: 'Continue',
-    src: '/media/offline-cases/right-c1-clean-h264.mp4',
-    poster: '/assets/images/posters/offline-cases/right-c1-clean.jpg',
+    src: withAssetVersion('/media/offline-cases/right-c1-clean-h264.mp4'),
+    poster: withAssetVersion('/assets/images/posters/offline-cases/right-c1-clean.jpg'),
   },
   {
     task: 'Right-arm towel folding',
     code: 'C2',
     title: 'Static change',
     label: 'Continue',
-    src: '/media/offline-cases/right-c2-static-change-h264.mp4',
-    poster: '/assets/images/posters/offline-cases/right-c2-static-change.jpg',
+    src: withAssetVersion('/media/offline-cases/right-c2-static-change-h264.mp4'),
+    poster: withAssetVersion('/assets/images/posters/offline-cases/right-c2-static-change.jpg'),
   },
   {
     task: 'Right-arm towel folding',
     code: 'C3',
     title: 'Transient obstruction',
     label: 'Continue',
-    src: '/media/offline-cases/right-c3-transient-obstruction-h264.mp4',
-    poster: '/assets/images/posters/offline-cases/right-c3-transient-obstruction.jpg',
+    src: withAssetVersion('/media/offline-cases/right-c3-transient-obstruction-h264.mp4'),
+    poster: withAssetVersion('/assets/images/posters/offline-cases/right-c3-transient-obstruction.jpg'),
   },
   {
     task: 'Right-arm towel folding',
     code: 'C4',
     title: 'Persistent obstruction',
     label: 'Trigger',
-    src: '/media/offline-cases/right-c4-persistent-obstruction-h264.mp4',
-    poster: '/assets/images/posters/offline-cases/right-c4-persistent-obstruction.jpg',
+    src: withAssetVersion('/media/offline-cases/right-c4-persistent-obstruction-h264.mp4'),
+    poster: withAssetVersion('/assets/images/posters/offline-cases/right-c4-persistent-obstruction.jpg'),
   },
   {
     task: 'Left-arm cup-to-rack',
     code: 'C1',
     title: 'Clean rollout',
     label: 'Continue',
-    src: '/media/offline-cases/left-c1-clean-h264.mp4',
-    poster: '/assets/images/posters/offline-cases/left-c1-clean.jpg',
+    src: withAssetVersion('/media/offline-cases/left-c1-clean-h264.mp4'),
+    poster: withAssetVersion('/assets/images/posters/offline-cases/left-c1-clean.jpg'),
   },
   {
     task: 'Left-arm cup-to-rack',
     code: 'C2',
     title: 'Static change',
     label: 'Continue',
-    src: '/media/offline-cases/left-c2-static-change-h264.mp4',
-    poster: '/assets/images/posters/offline-cases/left-c2-static-change.jpg',
+    src: withAssetVersion('/media/offline-cases/left-c2-static-change-h264.mp4'),
+    poster: withAssetVersion('/assets/images/posters/offline-cases/left-c2-static-change.jpg'),
   },
   {
     task: 'Left-arm cup-to-rack',
     code: 'C3',
     title: 'Transient obstruction',
     label: 'Continue',
-    src: '/media/offline-cases/left-c3-transient-obstruction-h264.mp4',
-    poster: '/assets/images/posters/offline-cases/left-c3-transient-obstruction.jpg',
+    src: withAssetVersion('/media/offline-cases/left-c3-transient-obstruction-h264.mp4'),
+    poster: withAssetVersion('/assets/images/posters/offline-cases/left-c3-transient-obstruction.jpg'),
   },
   {
     task: 'Left-arm cup-to-rack',
     code: 'C4',
     title: 'Persistent obstruction',
     label: 'Trigger',
-    src: '/media/offline-cases/left-c4-persistent-obstruction-h264.mp4',
-    poster: '/assets/images/posters/offline-cases/left-c4-persistent-obstruction.jpg',
+    src: withAssetVersion('/media/offline-cases/left-c4-persistent-obstruction-h264.mp4'),
+    poster: withAssetVersion('/assets/images/posters/offline-cases/left-c4-persistent-obstruction.jpg'),
   },
 ];
 
@@ -580,7 +583,7 @@ onBeforeUnmount(() => {
   <aside class="side-rail" aria-label="Section navigation">
     <a href="#overview" class="rail-brand">
       <span class="rail-mark">
-        <img src="/assets/brand/patch-logo-icon-nav-compact.png" alt="" />
+        <img :src="withBase('/assets/brand/patch-logo-icon-nav-compact.png')" alt="" />
       </span>
       <span class="rail-brand-text">PATCH</span>
     </a>
@@ -600,7 +603,7 @@ onBeforeUnmount(() => {
   <header class="mobile-header">
     <a href="#overview" class="mobile-brand">
       <span class="rail-mark">
-        <img src="/assets/brand/patch-logo-icon-nav-compact.png" alt="" />
+        <img :src="withBase('/assets/brand/patch-logo-icon-nav-compact.png')" alt="" />
       </span>
       <span class="rail-brand-text">PATCH</span>
     </a>
@@ -704,7 +707,7 @@ onBeforeUnmount(() => {
       </p>
       <div class="hero-wordmark">
         <div class="paper-mark" aria-label="PATCH logo mark">
-          <img src="/assets/brand/patch-logo-icon-user-alpha.png" alt="PATCH robotics logo mark" />
+          <img :src="withBase('/assets/brand/patch-logo-icon-user-alpha.png')" alt="PATCH robotics logo mark" />
         </div>
         <h1>PATCH</h1>
       </div>
@@ -731,7 +734,7 @@ onBeforeUnmount(() => {
 
       <div class="institution-row" aria-label="Institution logo">
         <div class="institution-logo">
-          <img src="/assets/brand/university-of-sydney.svg" alt="The University of Sydney" />
+          <img :src="withBase('/assets/brand/university-of-sydney.svg')" alt="The University of Sydney" />
         </div>
       </div>
 
@@ -768,7 +771,7 @@ onBeforeUnmount(() => {
           <span>{{ officialVideos.towel.eyebrow }}</span>
           <strong>{{ officialVideos.towel.meta }}</strong>
         </div>
-        <div class="youtube-embed" aria-label="YouTube 4K60 player for multi-intervention towel rollout">
+        <div class="youtube-embed" aria-label="Video player for multi-intervention towel rollout">
           <iframe
             :src="officialVideos.towel.src"
             :title="officialVideos.towel.title"
@@ -793,7 +796,7 @@ onBeforeUnmount(() => {
           <span>{{ officialVideos.full.eyebrow }}</span>
           <strong>{{ officialVideos.full.meta }}</strong>
         </div>
-        <div class="youtube-embed" aria-label="YouTube 4K60 player for PATCH full video">
+        <div class="youtube-embed" aria-label="Video player for PATCH full video">
           <iframe
             :src="officialVideos.full.src"
             :title="officialVideos.full.title"
@@ -874,7 +877,7 @@ onBeforeUnmount(() => {
         </div>
       </div>
       <figure class="method-figure">
-        <img src="/assets/images/method.webp" alt="PATCH method overview" />
+        <img :src="withBase('/assets/images/method.webp')" alt="PATCH method overview" />
         <figcaption>
           Policy context, projected corridor, latent patch prediction, evidence memory, and
           PATCH-Router intervention.
@@ -903,7 +906,7 @@ onBeforeUnmount(() => {
             loop
             data-autoplay
             playsinline
-            preload="auto"
+            preload="metadata"
           ></video>
           <div>
             <span>{{ item.task }}</span>
@@ -1060,7 +1063,7 @@ onBeforeUnmount(() => {
 
       <figure class="monitor-figure">
         <img
-          src="/assets/images/patch-monitor-evidence-trace.png"
+          :src="withBase('/assets/images/patch-monitor-evidence-trace.png')"
           alt="PATCH evidence trace showing rollout frames, patch-level external innovation, projected execution corridors, action paths, and localized trigger evidence."
         />
         <figcaption>
@@ -1085,7 +1088,7 @@ onBeforeUnmount(() => {
           <span>{{ officialVideos.cupRack.eyebrow }}</span>
           <strong>{{ officialVideos.cupRack.meta }}</strong>
         </div>
-        <div class="youtube-embed" aria-label="YouTube 4K60 player for cup-rack peer intervention">
+        <div class="youtube-embed" aria-label="Video player for cup-rack peer intervention">
           <iframe
             :src="officialVideos.cupRack.src"
             :title="officialVideos.cupRack.title"
@@ -1110,7 +1113,7 @@ onBeforeUnmount(() => {
           <span>{{ officialVideos.ood.eyebrow }}</span>
           <strong>{{ officialVideos.ood.meta }}</strong>
         </div>
-        <div class="youtube-embed" aria-label="YouTube 4K60 player for OOD execution stress">
+        <div class="youtube-embed" aria-label="Video player for OOD execution stress">
           <iframe
             :src="officialVideos.ood.src"
             :title="officialVideos.ood.title"
