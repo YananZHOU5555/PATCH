@@ -73,25 +73,25 @@ const officialVideos = {
   towel: {
     eyebrow: 'Official demo',
     title: 'Multi-intervention towel rollout',
-    meta: 'towel rollout',
+    meta: 'autonomous / 4x speed',
     src: 'https://www.youtube-nocookie.com/embed/-JQy57wfU74?rel=0&modestbranding=1&playsinline=1',
   },
   full: {
     eyebrow: 'Official video',
     title: 'PATCH — Full Video',
-    meta: 'official narrated overview',
+    meta: 'autonomous / 4x speed',
     src: 'https://www.youtube-nocookie.com/embed/54r9ASDzCqI?rel=0&modestbranding=1&playsinline=1',
   },
   cupRack: {
     eyebrow: 'Official demo',
     title: 'Cup-rack peer intervention',
-    meta: 'cup-rack intervention',
+    meta: 'autonomous / 4x speed',
     src: 'https://www.youtube-nocookie.com/embed/n4E4J0464M0?rel=0&modestbranding=1&playsinline=1',
   },
   ood: {
     eyebrow: 'Official demo',
     title: 'OOD execution stress',
-    meta: 'ood execution stress',
+    meta: 'autonomous / 4x speed',
     src: 'https://www.youtube-nocookie.com/embed/cS9K_Xb_rAg?rel=0&modestbranding=1&playsinline=1',
   },
 };
