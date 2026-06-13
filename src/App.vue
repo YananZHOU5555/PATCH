@@ -44,7 +44,7 @@ const GithubMark = (props) =>
 const navItems = [
   { label: 'Overview', href: '#overview', icon: Home },
   { label: 'Towel Demo', href: '#towel-demo', icon: Film },
-  { label: 'PATCH — Full Video', href: '#full-video', icon: MonitorPlay },
+  { label: 'Main Vedio', href: '#full-video', icon: MonitorPlay },
   { label: 'Abstract', href: '#abstract', icon: BookOpen },
   { label: 'Contributions', href: '#contributions', icon: Sparkles },
   { label: 'Method', href: '#architecture', icon: Network },
@@ -78,7 +78,7 @@ const officialVideos = {
   },
   full: {
     eyebrow: 'Official video',
-    title: 'PATCH — Full Video',
+    title: 'Main Vedio',
     meta: 'narrated overview',
     src: 'https://www.youtube-nocookie.com/embed/54r9ASDzCqI?rel=0&modestbranding=1&playsinline=1',
   },
@@ -787,8 +787,8 @@ onBeforeUnmount(() => {
     <section class="section main-video-section" id="full-video">
       <div class="section-head media-head">
         <div>
-          <p class="eyebrow"><MonitorPlay :size="14" /> PATCH — Full Video</p>
-          <h2>PATCH — Full Video</h2>
+          <p class="eyebrow"><MonitorPlay :size="14" /> Main Vedio</p>
+          <h2>Main Vedio</h2>
         </div>
       </div>
       <div class="cinema-frame">
