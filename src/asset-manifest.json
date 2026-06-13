@@ -1,0 +1,75 @@
+{
+  "images": {
+    "teaser": {
+      "file": "/assets/images/teaser.webp",
+      "width": 2400,
+      "height": 975,
+      "bytes": 272034
+    },
+    "method": {
+      "file": "/assets/images/method.webp",
+      "width": 2400,
+      "height": 1316,
+      "bytes": 278466
+    },
+    "data_classes": {
+      "file": "/assets/images/data_classes.webp",
+      "width": 2100,
+      "height": 820,
+      "bytes": 158296
+    },
+    "evidence_trace": {
+      "file": "/assets/images/evidence_trace.webp",
+      "width": 2400,
+      "height": 1008,
+      "bytes": 254656
+    },
+    "real_rollouts": {
+      "file": "/assets/images/real_rollouts.webp",
+      "width": 2100,
+      "height": 412,
+      "bytes": 132834
+    },
+    "ood_stress": {
+      "file": "/assets/images/ood_stress.webp",
+      "width": 2100,
+      "height": 984,
+      "bytes": 302086
+    },
+    "towel_router": {
+      "file": "/assets/images/towel_router.webp",
+      "width": 2100,
+      "height": 751,
+      "bytes": 286316
+    },
+    "cup_rack_router": {
+      "file": "/assets/images/cup_rack_router.webp",
+      "width": 2100,
+      "height": 278,
+      "bytes": 98376
+    },
+    "video_poster": {
+      "file": "/assets/images/video_poster.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 156298
+    },
+    "video_strip": {
+      "file": "/assets/images/video_strip.jpg",
+      "width": 2080,
+      "height": 292,
+      "bytes": 121214
+    }
+  },
+  "video": {
+    "file": "/media/PATCH-video.mp4",
+    "poster": "/assets/images/video_poster.jpg",
+    "strip": "/assets/images/video_strip.jpg",
+    "width": 2560,
+    "height": 1440,
+    "fps": 60.0,
+    "frames": 10786,
+    "duration_seconds": 179.76666666666668,
+    "bytes": 228037429
+  }
+}
