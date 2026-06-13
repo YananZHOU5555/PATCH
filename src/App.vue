@@ -79,7 +79,7 @@ const officialVideos = {
   full: {
     eyebrow: 'Official video',
     title: 'PATCH — Full Video',
-    meta: 'autonomous / 4x speed',
+    meta: 'narrated overview',
     src: 'https://www.youtube-nocookie.com/embed/54r9ASDzCqI?rel=0&modestbranding=1&playsinline=1',
   },
   cupRack: {
