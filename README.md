@@ -32,7 +32,18 @@ Action-Chunk-Conditioned Latent Patch Innovation Monitoring for Robot Manipulati
 </p>
 
 <p align="center">
-  <img src="public/assets/images/teaser.webp" alt="PATCH teaser" width="88%">
+  <video
+    src="public/media/readme/abc-music-preview.mp4"
+    poster="public/assets/images/readme-abc-preview.jpg"
+    controls
+    muted
+    playsinline
+    width="88%">
+  </video>
+</p>
+
+<p align="center">
+  <a href="public/media/readme/abc-music-preview.mp4">ABC music rollout demo</a>
 </p>
 
 ## Overview
@@ -47,7 +58,7 @@ inside the future motion corridor, then routes execution through hold, repair, a
 resume behavior when localized evidence persists.
 
 <p align="center">
-  <img src="public/assets/images/evidence_trace.webp" alt="PATCH evidence trace" width="92%">
+  <img src="public/assets/images/method.webp" alt="PATCH method overview" width="92%">
 </p>
 
 ## Release Status
