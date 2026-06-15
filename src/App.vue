@@ -63,7 +63,7 @@ const resourceButtons = [
   {
     label: 'Code',
     icon: GithubMark,
-    href: 'https://github.com/YananZHOU5555/CoRL26-PATCH-ROUTER',
+    href: 'https://github.com/YananZHOU5555/PATCH',
   },
   { label: 'Video', icon: CirclePlay, href: '#full-video' },
   { label: 'BibTeX', icon: Quote, href: '#bibtex' },
