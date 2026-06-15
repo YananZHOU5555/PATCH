@@ -1,4 +1,8 @@
-<h1 align="center">PATCH</h1>
+<p align="center">
+  <a href="https://yananzhou5555.github.io/PATCH/">
+    <img src="public/assets/images/readme-hero.png" alt="PATCH project page" width="100%" />
+  </a>
+</p>
 
 <h3 align="center">
 Action-Chunk-Conditioned Latent Patch Innovation Monitoring for Robot Manipulation
@@ -17,33 +21,10 @@ Action-Chunk-Conditioned Latent Patch Innovation Monitoring for Robot Manipulati
 </p>
 
 <p align="center">
-  <a href="https://yananzhou5555.github.io/PATCH/">
-    <img src="https://img.shields.io/badge/Project-Page-15130f?style=for-the-badge&logo=githubpages&logoColor=white" alt="Project Page">
-  </a>
-  <a href="https://yananzhou5555.github.io/PATCH/paper/PATCH-preprint.pdf">
-    <img src="https://img.shields.io/badge/Paper-Preprint-8a6a2f?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Paper">
-  </a>
-  <a href="https://youtu.be/54r9ASDzCqI">
-    <img src="https://img.shields.io/badge/Video-Main-0f766e?style=for-the-badge&logo=youtube&logoColor=white" alt="Main Video">
-  </a>
-  <a href="#release-status">
-    <img src="https://img.shields.io/badge/Code-Coming%20Soon-44403c?style=for-the-badge&logo=github&logoColor=white" alt="Code Coming Soon">
-  </a>
-</p>
-
-<p align="center">
-  <video
-    src="public/media/readme/abc-music-preview.mp4"
-    poster="public/assets/images/readme-abc-preview.jpg"
-    controls
-    muted
-    playsinline
-    width="88%">
-  </video>
-</p>
-
-<p align="center">
-  <a href="public/media/readme/abc-music-preview.mp4">ABC music rollout demo</a>
+  <a href="https://yananzhou5555.github.io/PATCH/">Project Page</a> ·
+  <a href="https://yananzhou5555.github.io/PATCH/paper/PATCH-preprint.pdf">Paper</a> ·
+  <a href="https://youtu.be/54r9ASDzCqI">Main Video</a> ·
+  <a href="https://github.com/YananZHOU5555/PATCH">Code (coming soon)</a>
 </p>
 
 ## Overview
