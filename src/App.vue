@@ -44,7 +44,7 @@ const GithubMark = (props) =>
 const navItems = [
   { label: 'Overview', href: '#overview', icon: Home },
   { label: 'Towel Demo', href: '#towel-demo', icon: Film },
-  { label: 'Main Vedio', href: '#full-video', icon: MonitorPlay },
+  { label: 'Main Video', href: '#full-video', icon: MonitorPlay },
   { label: 'Abstract', href: '#abstract', icon: BookOpen },
   { label: 'Contributions', href: '#contributions', icon: Sparkles },
   { label: 'Method', href: '#architecture', icon: Network },
@@ -78,7 +78,7 @@ const officialVideos = {
   },
   full: {
     eyebrow: 'Official video',
-    title: 'Main Vedio',
+    title: 'Main Video',
     meta: 'narrated overview',
     src: 'https://www.youtube-nocookie.com/embed/54r9ASDzCqI?rel=0&modestbranding=1&playsinline=1',
   },
@@ -409,7 +409,7 @@ const bibtex = `@misc{patch2026actionchunk,
   title  = {PATCH: Action-Chunk-Conditioned Latent Patch Innovation Monitoring for Robot Manipulation},
   author = {Zhou, Yanan and Qiu, Ranpeng and Chen, Yincong and Cui, Jiajie and Zhi, Weiming},
   year   = {2026},
-  note   = {CoRL 2026 submission}
+  note   = {Preprint}
 }`;
 
 const activeSection = ref('overview');
@@ -787,8 +787,8 @@ onBeforeUnmount(() => {
     <section class="section main-video-section" id="full-video">
       <div class="section-head media-head">
         <div>
-          <p class="eyebrow"><MonitorPlay :size="14" /> Main Vedio</p>
-          <h2>Main Vedio</h2>
+          <p class="eyebrow"><MonitorPlay :size="14" /> Main Video</p>
+          <h2>Main Video</h2>
         </div>
       </div>
       <div class="cinema-frame">
