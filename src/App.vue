@@ -813,7 +813,7 @@ onBeforeUnmount(() => {
       <div class="section-head">
         <div>
           <p class="eyebrow"><BookOpen :size="14" /> Abstract</p>
-          <h2>Monitoring the changes that matter.</h2>
+          <h2>Monitoring unexplained changes inside the future motion corridor.</h2>
         </div>
       </div>
       <div class="abstract-layout">
