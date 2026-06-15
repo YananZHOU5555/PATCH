@@ -58,7 +58,7 @@ const navItems = [
 ];
 
 const resourceButtons = [
-  { label: 'Paper', icon: FileText, disabled: true },
+  { label: 'Paper', icon: FileText, href: withBase('/paper/PATCH-preprint.pdf') },
   { label: 'arXiv', icon: ScrollText, disabled: true },
   {
     label: 'Code',
