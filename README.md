@@ -23,6 +23,7 @@ Action-Chunk-Conditioned Latent Patch Innovation Monitoring for Robot Manipulati
 <p align="center">
   <a href="https://yananzhou5555.github.io/PATCH/">Project Page</a> ·
   <a href="https://yananzhou5555.github.io/PATCH/paper/PATCH-preprint.pdf">Paper</a> ·
+  <a href="https://arxiv.org/abs/2606.16690">arXiv</a> ·
   <a href="https://youtu.be/54r9ASDzCqI">Main Video</a> ·
   <a href="https://github.com/YananZHOU5555/PATCH">Code (coming soon)</a>
 </p>
@@ -106,7 +107,9 @@ If you find this work useful, please cite:
   title  = {PATCH: Action-Chunk-Conditioned Latent Patch Innovation Monitoring for Robot Manipulation},
   author = {Zhou, Yanan and Qiu, Ranpeng and Chen, Yincong and Cui, Jiajie and Zhi, Weiming},
   year   = {2026},
-  note   = {Preprint}
+  eprint = {2606.16690},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.RO}
 }
 ```
 

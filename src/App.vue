@@ -22,6 +22,7 @@ import {
 
 const withBase = (path) => `${import.meta.env.BASE_URL}${path.replace(/^\/+/, '')}`;
 const withAssetVersion = (path) => `${withBase(path)}?v=offline-crop-2048-20260613b`;
+const arxivUrl = 'https://arxiv.org/abs/2606.16690';
 
 const GithubMark = (props) =>
   h(
@@ -59,7 +60,7 @@ const navItems = [
 
 const resourceButtons = [
   { label: 'Paper', icon: FileText, href: withBase('/paper/PATCH-preprint.pdf') },
-  { label: 'arXiv', icon: ScrollText, disabled: true },
+  { label: 'arXiv', icon: ScrollText, href: arxivUrl },
   {
     label: 'Code',
     icon: GithubMark,
@@ -409,7 +410,9 @@ const bibtex = `@misc{patch2026actionchunk,
   title  = {PATCH: Action-Chunk-Conditioned Latent Patch Innovation Monitoring for Robot Manipulation},
   author = {Zhou, Yanan and Qiu, Ranpeng and Chen, Yincong and Cui, Jiajie and Zhi, Weiming},
   year   = {2026},
-  note   = {Preprint}
+  eprint = {2606.16690},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.RO}
 }`;
 
 const activeSection = ref('overview');
